@@ -28,6 +28,16 @@
   - 배경, 회고, 실패 과정, 왜 그런 판단을 했는지 자세히 적는다.
   - 개인 기술 위키에 넣기에는 긴 내용을 이곳에 둔다.
 
+- `design-consult-request.md`
+  - 새 프로젝트/새 기능을 처음 만들 때 쓰는 설계 상담 요청 양식이다.
+  - `<< >>` 부분만 채워 AI에게 통째로 붙여넣는다.
+  - 기술 후보를 받고 하나를 골라 `ARCHITECTURE.md`로 굳히는 것이 목적이다.
+
+- `lecture-request.md`
+  - 처음 다루는 기술 영역을 강의 형태로 배울 때 쓰는 요청 양식이다.
+  - 목차를 먼저 받고 챕터 단위로 진행한다.
+  - 산출물은 설명이 아니라 `notes/`에 쌓이는 **용어 목록**이다.
+
 ## 작성 기준
 
 - 전체 방향이나 아이디어는 `portfolio-notes.md`에 적는다.
@@ -35,6 +45,8 @@
 - 실제 프로젝트 경험은 `project-stories.md`에 적는다.
 - 프로젝트 중 바로 쓸 핵심 규칙은 `personal-tech-wiki.md`에 적는다.
 - 긴 설명과 회고는 `development-playbook.md`에 적는다.
+- 새로 만들 것의 구조를 정할 때는 `design-consult-request.md`를 채워 쓴다.
+- 모르는 기술 영역을 배울 때는 `lecture-request.md`를 채워 쓴다.
 
 ## 새 대화에서 읽는 순서
 
@@ -43,3 +55,5 @@
 3. 기술 규칙을 바로 쓰려면 `personal-tech-wiki.md`
 4. 사례의 배경까지 보려면 `development-playbook.md`
 5. 포트폴리오 사례 문장을 만들려면 `project-stories.md`
+6. 새 프로젝트의 구조를 정하려면 `design-consult-request.md`
+7. 모르는 기술을 배우려면 `lecture-request.md`
